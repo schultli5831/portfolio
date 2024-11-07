@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    color: #000000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image:url(images/BACKGROUNG.png); background-repeat: no-repeat; background-size: cover ; 
+    font-size: larger;
+    line-height: 1.75rem;
+}
+header{
+    background-color: #000000;   
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: .5rem;
+}
+h1{
+    color: #08352a;
+    font-size: xx-large;
+    text-align: center;
+}
+footer{
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff}
+.pic{
+    border: 1rem solid #000000, }
+.pic{margin-top: 1rem; margin-left: 2rem;}
+.about{display:flex; gap: 3rem; justify-content: center; align-items: flex-start;}
+.about div{width: 40%;}
+.work{display: flex; gap: 3rem; justify-content: center;align-items: flex-start;}
+.work div{width: 40%;}
+.gallery{display: flex; flex-wrap: wrap;gap: 2rem;justify-content: center;}
+.gallery div{width: 40%}
+@media (max-width:900px) {
+    .about{flex-wrap: wrap;}.about div{width: 80%;}
+    .work{flex-wrap: wrap;} .work div{width: 80%;}
+    .gallery{flex-wrap: wrap;} .gallery div{width: 40%;}
+}
